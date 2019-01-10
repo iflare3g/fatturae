@@ -23,4 +23,25 @@ more features feel free to send a PR
 
 ## Installation
 
-> Coming soon
+Install ```pipenv```
+
+- ``` pipenv install --dev```
+
+To get a fresh virtualenv with
+all of dependencies needed for development.
+
+Install ``docker``
+
+Run
+
+- ``docker-compose up -d``
+
+to get database up and running
+
+Run tests with
+
+- ``pipenv run pytest``
+
+Run django  inside project folder with 
+
+``pipenv run ./manage.py runserver``
